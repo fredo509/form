@@ -1,0 +1,116 @@
+body{
+   margin: 0;
+   padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    background-image: url("https://th.bing.com/th/id/OIP.9L71-UpexnvVQ9jF9mJgMgHaEK?w=321&h=180&c=7&r=0&o=5&pid=1.7");
+}
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 32, 167, 0.712);
+    
+
+
+}
+
+
+#title{
+    color: white;
+    font-size: 200%;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#description{
+    color: white;
+    font-size: 140%;
+    text-align: center;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+    
+}
+#survey-form{
+    padding: 40px;
+    background:rgba(46, 26, 82, 0.829);
+    width: 70%;
+    border-radius: 2%;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form-group input{
+    
+    height: 30px;
+    margin-top: -25px;
+}
+form-group, label{
+    margin: 15px 0px;
+    color:white;
+
+}
+
+
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    
+}
+.radio input{
+    margin: 0px;
+    margin-right: 4px;
+    width: 17px;
+    float: right;
+}
+
+.select{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+#btnSubmit {
+   margin-top: 30px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   border: none;
+   background: none;
+
+
+}
+#btnSubmit input{
+    
+    width: 20%;
+    height: 50px;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.719);
+    background-color:rgba(14, 10, 61, 0.897);
+    border:none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 65, 65);
+    margin-top: 20px;
+}
+
+
+

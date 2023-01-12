@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Fredo Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us my the platform</p>
+            
+            <form action="thank.html" target="_blank" id="survey-form">
+                <div class="form-group">
+                    <label for="name-label">Name</label><br>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-label">Email</label><br>
+                    <input type="email" id="email-label" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="age-label">Age (optional)</label><br>
+                    <input type="number" id="age-label" max="90" min="10" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <label for="dropdown">Select Current Control</label>
+                    <select name="selectf" id="dropdown" form="survey-form" class="select" required>
+                        <option value="">
+                            <p>Select Current Control</p> 
+                        </option>
+                        <option value="Full time job">Student</option>
+                        <option value="Full time job">Teacher</option>
+                    </select>
+                </div>
+                <label for="choose">Would you recommend our school to a friend?</label>
+            
+            
+                <div class="form-group">
+                    <div class="radio">
+                        <input type="radio" name="ch" id="challenge" value="Bonjour" class="choose" required>
+                        <label for="challenge"> Yes</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="ch" id="community" value="Bonjour" class="choose" required>
+                        <label for="community"> No</label>
+                    </div>
+                </div>
+                <div class="form-group select0">
+                    <label for="drop">Select Current Control</label>
+                    <select name="select" id="drop" form="survey-form" class="select">
+                        <option value="Full time job">Mentor</option>
+                        <option value="Full time job">Team manager</option>
+                    </select>
+                </div>
+                <div class="form-group  chk">
+                    <label for="survey-form">What would you like to see improved? (Check all that apply)</label>
+                    <div class="radio">
+                        <input type="checkbox" name="check1" id="chk1" value="Front-end" required>
+                        <label for="chk1">Html Course</label>
+                    </div>
+                    <div class="radio">
+                        <input type="checkbox" name="check2" id="chk2" value="back-end" required>
+                        <label for="chk2">Css course</label>
+                    </div>
+                    <div class="radio">
+                        <input type="checkbox" name="check3" id="chk3" value="git">
+                        <label for="chk3">Javascript Course</label>
+                    </div>
+            
+            
+                </div>
+                <div class="form-group">
+                    <label for="txt-area">Any comments or suggestions?</label>
+                    <textarea name="txt" id="txt-area" cols="30" rows="5"></textarea>
+                </div>
+                <div id="btnSubmit">
+                    <input type="submit" value="Submit">
+                </div>
+                
+            
+            </form>
+            <footer>
+                <p>@ 2023 Code by fredostfleur23@gmail.com</p>
+            </footer>
+        </main>
+       
+    </body>
+</html>
